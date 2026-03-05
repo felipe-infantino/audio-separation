@@ -36,9 +36,6 @@ Output files are saved as `<track>_<stem>.mp3` in the specified directory.
 - Python 3.11–3.14
 - FFmpeg (`brew install ffmpeg` / `apt install ffmpeg`)
 
-> Model weights download automatically on first run from Hugging Face (`felipeinfantino/voice-remover`).
-> Cached at `~/.cache/voice-remover/models/`.
-
 ## Development
 
 ```bash
