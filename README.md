@@ -60,6 +60,15 @@ poetry lock
 poetry version patch   # or minor / major
 ```
 
+### Git build versioning
+
+Let x.y.z be the new bumped version:
+
+```bash
+git tag v[x.y.z]
+git push origin main --tags
+```
+
 ## License
 
 MIT
