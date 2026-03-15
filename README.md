@@ -1,6 +1,12 @@
+[![PyPI version](https://badge.fury.io/py/audio-separation.svg)](https://badge.fury.io/py/audio-separation)
 # audio-separation
 
 Local audio source separation. Drums, Bass, Vocal and other. 
+
+## Requirements
+
+- Python 3.11–3.14
+- FFmpeg (`brew install ffmpeg` / `apt install ffmpeg`)
 
 ## Install
 
@@ -31,10 +37,6 @@ Output files are saved as `<track>_<stem>.mp3` in the specified directory.
 |---|---|---|
 | `--device` | `cpu` | Inference device: `cpu`, `cuda`, `mps` |
 
-## Requirements
-
-- Python 3.11–3.14
-- FFmpeg (`brew install ffmpeg` / `apt install ffmpeg`)
 
 ## Development
 
